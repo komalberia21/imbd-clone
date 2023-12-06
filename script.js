@@ -3,6 +3,7 @@
     const resultContainer= document.querySelector('.movies-result');
     const apiKey = '340bf72f';
      const imdbID = 'tt3896198';
+    
      const favorites=localStorage.getItem("favourites");
     let fav={};
     if(favorites){
@@ -30,6 +31,7 @@
           throw new Error(`Error: ${response.status} - ${response.statusText}`);
         }
           const data = await response.json();
+          console.log(data);
 
          if (data.Search) {
           localStorage.setItem('movies', JSON.stringify(data.Search));
