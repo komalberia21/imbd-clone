@@ -23,7 +23,7 @@
 
     if (searchTerm !== '') {
       try {
-        const url = `http://www.omdbapi.com/?s=${searchTerm}&apikey=${apiKey}`;
+        const url = `https://www.omdbapi.com/?s=${searchTerm}&apikey=${apiKey}`;
         const response = await fetch(url);
 
         if (!response.ok) {
