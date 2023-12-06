@@ -157,7 +157,7 @@ heartfavList.forEach(heartIcon => {
 function movieInfo(movieId,event) {
   // Construct the URL for the new page
   event.preventDefault();
-  const newPageUrl = `/index1.html?id=${movieId}`; // Replace with your actual page URL
+  const newPageUrl = `./index1.html?id=${movieId}`; // Replace with your actual page URL
 
   // Navigate to the new page
   window.location.href = newPageUrl;
