@@ -1,0 +1,231 @@
+.nav-bar{
+    background-color: #301934;
+    height:55px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.logo{
+    height:55px;
+    width:65px;
+}
+body{
+    background-color: black;
+}
+i{
+    height:20px;
+  
+}
+
+  #id{
+    position: absolute;
+     }
+
+  #searchdiv{
+    position: relative;
+    display: inline-block;
+   }
+#searchInput{
+    width:350px;
+    border-radius:12px;
+  
+     }
+  #searchButton{
+    position: absolute;
+    cursor: pointer;
+    margin-left:325px;
+    margin-top: 3px;
+  }
+  .movie{
+    display:flex;
+    background-color: rgb(234, 228, 228);
+    height:200px;
+    width:200px;
+    margin:12px;
+    box-shadow: 25px 25px 25px black;
+    flex-direction: column;
+    transition:width 2s,height 2s;
+    }
+    .movie:hover{
+      width:190px;
+      height:190px;
+      
+}
+  .year{
+    font-size: small;
+  }
+  
+  .movies-result{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+  .poster{
+    height:100px;
+    width:100%;
+    color: black;
+  }
+  .detail{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+    margin-right:4px;
+  }
+  .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .heart-pink{
+    color: rgb(232, 54, 84);
+   
+  }
+  #nav-heart{
+    color:rgb(231, 16, 52);
+    margin:3px;
+    height:30px;
+    width:30px;
+    cursor: pointer;
+
+  }
+  .card-heart:hover{
+    color: palevioletred;
+
+  }
+
+  .myfavlist{
+  position: fixed;
+  display:none;
+  top: 66px;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color:rgb(183, 179, 179);/* Set your desired background color */
+  flex-direction: column;
+   z-index: 1;
+  overflow-y: auto; /* Add scroll if needed */
+  transition: right 3s ease;
+ }
+
+ .moviefav{
+      display:flex;
+      background-color: rgb(234, 228, 228);
+      height:70px;
+      width:100%;
+      margin:4px;
+     
+    }
+.posterfav{
+    height:full;
+    width:50px;
+    color: black;
+  }
+  .detailfav{
+    font-size:small;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:-20px;
+   
+  }
+  .titlefav{
+    display: flex;
+    font-size: small;
+    flex-direction: row;
+    align-items: center;
+  
+    justify-content: center;
+  }
+
+  .myfavlist.sidebar-visible {
+    display: flex;
+  }
+
+  .favdiv{
+    display:flex;
+    flex-direction: column;
+  }
+
+
+
+  .movieone{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(234, 228, 228);
+    height:400px;
+    width:400px;
+    margin:35px;
+    margin-left: 30px;
+  
+    box-shadow: 25px 25px 25px black;
+  
+  }
+
+  .movieonedisplay{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+ .postermovie{
+    height:400px;
+    width:400px;
+    color: black;
+    
+  }
+  .detailmovie{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    columns: white;
+    margin-left: 45px;
+   
+   }
+  .titlemovie{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .titlemov{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+  }
+  .moviedetail{
+    display:flex;
+    justify-content: space-between;
+  
+    }
+  .yearmovie{
+    color:white
+  }
+  .type{
+    color: white;
+  }
+  #heartone{
+    background-color: antiquewhite;
+    height:30px;
+    width:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .no-results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 200px;
+    font-size: large;
+  }
+
+
